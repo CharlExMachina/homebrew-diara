@@ -6,21 +6,21 @@
 class Diara < Formula
   desc "Banish your abandoned GitHub repositories - Extra damage to all undead repos"
   homepage "https://github.com/CharlExMachina/diara"
-  version "1.1.1"
+  version "1.1.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/CharlExMachina/diara/releases/download/v1.1.1/diara-macos-arm64.tar.gz"
-      sha256 "38b9f737a6d8a7f8b216c2c80e2ef4057d2ac0b94beb5594403324e6ee4fd338"
+      url "https://github.com/CharlExMachina/diara/releases/download/v1.1.2/diara-macos-arm64.tar.gz"
+      sha256 "f19619bc8e4a5e9c4af2551d9b86374b7852ae9ea4b46e480092fcaa7d44b38c"
 
       def install
         bin.install "diara-macos-arm64" => "diara"
       end
     end
     on_intel do
-      url "https://github.com/CharlExMachina/diara/releases/download/v1.1.1/diara-macos-x64.tar.gz"
-      sha256 "cae0fab445be0272fb5adfc474c35e5442e98f4d31073565d8a922e99b5acfe1"
+      url "https://github.com/CharlExMachina/diara/releases/download/v1.1.2/diara-macos-x64.tar.gz"
+      sha256 "ac7685e56ed0c0fd6ff77b45ce8a99a9ab1ad03d098dec4e61972526b6868a88"
 
       def install
         bin.install "diara-macos-x64" => "diara"
@@ -30,16 +30,16 @@ class Diara < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/CharlExMachina/diara/releases/download/v1.1.1/diara-linux-arm64.tar.gz"
-      sha256 "a4dd131b00dbddc794cbf25f1414f56709d511c9345b8bf96b12e6d9794c950e"
+      url "https://github.com/CharlExMachina/diara/releases/download/v1.1.2/diara-linux-arm64.tar.gz"
+      sha256 "cdf095b6fc1bfc4ad846f0d798229e0a1d3c18d142287d8121336808be5ef275"
 
       def install
         bin.install "diara-linux-arm64" => "diara"
       end
     end
     on_intel do
-      url "https://github.com/CharlExMachina/diara/releases/download/v1.1.1/diara-linux-x64.tar.gz"
-      sha256 "81b6930ea26f3509c4b7b14aea80ce448d11ee93b055af1456554149c65d81cf"
+      url "https://github.com/CharlExMachina/diara/releases/download/v1.1.2/diara-linux-x64.tar.gz"
+      sha256 "16c409c61acbbd41cbfa8720616ff86d8c3704bf9abec0914e2d2f2d4fc59f3c"
 
       def install
         bin.install "diara-linux-x64" => "diara"
